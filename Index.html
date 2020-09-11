@@ -137,25 +137,24 @@
                     </div>
                     
            </div>
-            <div class="col-sm-6 col-md-3">
-               <div class="card bg-secondary text-center text-Black">
+          <div class="col-sm-6 col-md-3">
+                    <div class="card bg-secondary text-center text-Black">
                         <div class="card-body">
                             <h4 class="card-title display-4 mt-2">
                                 <i class="fas fa-procedures"></i>
                             </h4>
                             <h6 class="card-subtitle mb-2 display-5">
-                               <strong>
-                                          Casos Críticos
+                                <strong>
+                                    Casos Críticos
                                 </strong>
                             </h6>
                             <p class="card-text">
-                                      {{paisDatos.latest_data.critical}}
+                                {{paisDatos.latest_data.critical}}
                             </p>
                         </div>
                     </div>
-                
                 </div>
-               <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-3">
                     <div class="card bg-info text-center text-Black">
                         <div class="card-body">
                             <h4 class="card-title display-4 mt-2">
@@ -172,7 +171,6 @@
                             <p class="card-text">&nbsp; </p>
                         </div>
                     </div>
-                   
                 </div>
                 <div class="col-sm-6 col-md-3">
                     <div class="card bg-warning text-center text-Black">
@@ -182,12 +180,12 @@
                             </h4>
                             <h6 class="card-subtitle mb-2 display-5">
                                 <strong>
-                                                Casos Fallecidos <br>  {{paisDatos.latest_data.deaths}}
+                                    Casos Fallecidos <br> {{paisDatos.latest_data.deaths}}
                                 </strong>
                             </h6>
                             <p class="card-text">
                                 {{
-                                         parseFloat(paisDatos.latest_data.calculated.death_rate).toFixed(2)
+                                    parseFloat(paisDatos.latest_data.calculated.death_rate).toFixed(2)
                                 }}%
                             </p>
                         </div>
